@@ -1,5 +1,5 @@
 ---
-title:        "Introducing Your Amazing Podcast"
+title:        "Intro"
 subtitle:     "Optional subtitle here"
 date:         2020-08-03 16:29:02 +0800
 keywords:
