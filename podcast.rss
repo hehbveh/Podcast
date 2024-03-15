@@ -35,8 +35,8 @@ layout: null
         <itunes:category text="Business">
             <itunes:category text="Courses" />
         </itunes:category>
-        <itunes:category text="Marketing">
-            <itunes:category text="Entrepreneurship" />
+        <itunes:category text="Comedy">
+            <itunes:category text="Leisure" />
         </itunes:category>
         <itunes:type>episodic</itunes:type>
         <itunes:explicit>no</itunes:explicit>
