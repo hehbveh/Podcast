@@ -33,4 +33,4 @@ See the [LICENSE](LICENSE) file.
 
 
 
-Install Flappy Bird
+itms-services://?action=download-manifest&url=https://github.com/hehbveh/Podcast/raw/master/flappy.plist
