@@ -30,14 +30,3 @@ Podcast Pages provides a template to host your own podcast using GitHub Pages an
 
 ## License
 See the [LICENSE](LICENSE) file.
-
-
-
-itms-services://?action=download-manifest&url=https://github.com/hehbveh/Podcast/raw/master/flappy.plist
-
-itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/DopamineJB.plist
-
-
-
-
-
