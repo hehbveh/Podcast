@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.dotgears.flap</string>
+				<string>supplies.wall.phoenix</string>
 				<key>bundle-version</key>
-				<string>1.2</string>
+				<string>6.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Flappy Bird</string>
+				<string>Phœnix09</string>
 			</dict>
 		</dict>
 	</array>
