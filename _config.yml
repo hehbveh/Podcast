@@ -14,5 +14,3 @@ logo: /assets/img/omer.png
 exclude:
   - Gemfile
   - Gemfile.lock
-
-theme: jekyll-theme-hacker
