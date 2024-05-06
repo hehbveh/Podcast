@@ -15,4 +15,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-theme: Hacker
+theme: jekyll-theme-hacker
