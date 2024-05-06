@@ -38,8 +38,18 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+ </body>
 
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    
-  </body>
+
+
+  <script>
+  document.addEventListener('click', function(event) {
+    const link = event.target.closest('a'); // Find the clicked link element
+    if (link && !link.href.endsWith('/')) {
+      link.href += '/'; // Add trailing slash if missing
+    }
+  });
+</script> 
+
+  
 </html>
