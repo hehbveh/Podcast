@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>supplies.wall.phoenix</string>
+				<string>net.Almogio.whatsappp</string>
 				<key>bundle-version</key>
-				<string>6.0</string>
+				<string>24.17.10</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Phoenix</string>
+				<string>WhatsApp</string>
 			</dict>
 		</dict>
 	</array>
