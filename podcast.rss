@@ -49,7 +49,7 @@ layout: null
                 <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
                 <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
                 <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-                <enclosure url="{{ post.mp3-url | prepend: site.baseurl | prepend: site.url }}" length="1" type="audio/mp3"/>
+                <enclosure url="{{ post.mp3-url }}" length="1" type="application/x-mpegURL"/>
                 <itunes:author>{{ site.author }}</itunes:author>
                 <itunes:summary><![CDATA[{{ post.content | strip_html | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
                 <itunes:subtitle><![CDATA[{{ post.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
