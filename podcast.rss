@@ -36,10 +36,9 @@ layout: null
             <itunes:category text="Leisure" />
         </itunes:category>
         <itunes:category text="Comedy">
-            <itunes:category text="Leisure" />
         </itunes:category>
         <itunes:type>episodic</itunes:type>
-        <itunes:explicit>no</itunes:explicit>
+        <itunes:explicit>false</itunes:explicit>
         {% for post in site.posts %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
