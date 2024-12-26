@@ -10,11 +10,22 @@ layout: default
 </h2>
 
 <section>
+    {% if page.mp3-url %}
     <audio class="podcast" preload="auto" controls>
       <source 
         src="{% if page.mp3-url contains 'http' %}{{ page.mp3-url }}{% else %}{{ site.url | append: site.baseurl | append: page.mp3-url }}{% endif %}" 
         type="audio/mp3" />
     </audio>
+    {% endif %}
+
+    {% if page.mp4-url %}
+    <video class="podcast-video" preload="auto" controls>
+      <source 
+        src="{% if page.mp4-url contains 'http' %}{{ page.mp4-url }}{% else %}{{ site.url | append: site.baseurl | append: page.mp4-url }}{% endif %}" 
+        type="video/mp4" />
+      Your browser does not support the video element.
+    </video>
+    {% endif %}
 </section>
 
 <h3>Notes</h3>
