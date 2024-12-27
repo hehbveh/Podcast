@@ -15,7 +15,7 @@
     <div class="wrapper">
       <header>
         {% if site.logo %}
-        <img id="logo" src="{{site.logo | relative_url}}" alt="Logo" />
+        <img id="logo" src="{{ site.logo | relative_url }}" alt="Logo" />
         {% endif %}
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
         <h2>{{ site.author }}</h2>
@@ -23,9 +23,7 @@
         <p>{{ site.description }}</p>
       </header>
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
       <footer>{{ site.copyright }}</footer>
     </div>
@@ -39,5 +37,9 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
- </body>
+
+    <!-- Add Eruda Debugger -->
+    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+    <script>eruda.init();</script>
+  </body>
 </html>
